@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <script>
+            function fun()
+            {
+                var x;
+                
+                    x=confirm("keep loged in !");
+                if("ok")
+                {
+                    document.write("Now you have succesfully log in !");
+                }
+                else
+                {
+                    document.write("Sorry you have clicked on CANCEL please try again!!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+    <div>
+    <h3>Facebook</h3>
+    
+       <form action="#" method="post">
+           <label> Mobile number or email address </label> <input type="text" name="username" required=""/>
+           
+    <label class="p"> Password </label> <input type="password" name="password"  required="" />
+    <input id="in" type="submit" value="Log In" onclick="fun()"/>
+    <a href="#" >Forgotten  password?</a>
+       </form> 
+       
+    <div class="c">
+       
+       <hr/>
+      
+       <div id="d">Or</div>
+       <div id="a">
+           <input type="submit" name="" value="Create New Account" onclick="fun()"/>
+           
+       </div>
+       <label id="e" >English(US)</label><br/>
+       <label id="h">हिन्दी</label><br/>
+       <label id="n">मराठी</label><br/>
+       <label id="m">More Languages...</label>     
+       
+          </div>
+          </div>
+    </body>
+</html>
